@@ -30,27 +30,6 @@ Installation:
 	http://127.0.0.1:8000/
 
 
-Testing: (TO BE ADDED)
---------
-
-	python manage.py test
-
-
-Docker: (TO BE ADDED)
--------
-
-	Create new folder "PLMmini" and open it:
-	git clone https://github.com/marcin86junior/PLMmini .
-	cd inter_project\
-	"Open Doker Desktop"
-	change format file in \inter_project\docker-entrypoint.sh    CRLF->LF (save!)
-	add SECRET_KEY = 'xxx' in settings.py
-	docker-compose up
-	http://127.0.0.1:8000/
-	Test:
-	docker-compose run web python3 manage.py test
-
-
 Instructions:
 -------
     1. Create super user: python .\manage.py createsuperuser
